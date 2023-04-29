@@ -4,6 +4,6 @@ int main()
     int n,sum;
     printf("enter the value of n:");
     scanf("%d",&n);
-    sum=(n*n)*((n+1)*(n+1))/4;
-    printf("sum of square of %d natural numbers=%d",n,sum);
+    sum=(n*n)*((n+1)*(n+1))/3;
+    printf("sum of cube of %d natural numbers=%d",n,sum);
 }
